@@ -1,0 +1,82 @@
+:root {
+    --dark: #101010;
+    --light: #F3F3F3;
+    --grey: #c7c7c7;
+    --red: #8c0500;
+    --redLight: #da2a2a;
+
+    --text: var(--light)
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "z";
+}
+
+
+body {
+    margin: 0;
+    position: relative;
+    scroll-behavior: smooth;
+    background-color: var(--red);
+    color: var(--light);
+
+    overscroll-behavior: none;
+    height: 100%;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.4em;
+    font-family: 'Black Ground', sans-serif;
+    letter-spacing: .05em;
+}
+
+p {
+    margin: 1em 0;
+}
+
+main {
+    padding: .8em 1em;
+    width: 100%;
+}
+
+
+a {
+    color: var(--light);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    appearance: none;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
